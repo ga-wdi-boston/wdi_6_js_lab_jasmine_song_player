@@ -1,2 +1,3 @@
-ga-lab-js-jasmine-song-player
-=============================
+# Jasmine Intro Lab
+
+Make the tests pass. 
