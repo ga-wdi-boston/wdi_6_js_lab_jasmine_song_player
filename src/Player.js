@@ -21,5 +21,5 @@ Player.prototype.resume = function() {
 
 Player.prototype.makeFavorite = function(favorite) {
   this.currentlyPlayingSong.persistFavoriteStatus(true);
-}
+};
 
