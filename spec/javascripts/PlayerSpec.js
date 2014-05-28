@@ -50,7 +50,8 @@ xdescribe("Player", function() {
   });
 
   // Demonstrates use of spies to intercept and test function calls
-  // (note your Song itself does *not* need any functions on it for this to pass!)
+  // (note your Song will need a `persistFavoriteStatus` function on it
+  // to pass this test, but it doesn't have to actually do anything!)
   describe("#makeFavorite", function(){
     it("tells the current song to persist its favorite status", function() {
       spyOn(this.song, 'persistFavoriteStatus');
