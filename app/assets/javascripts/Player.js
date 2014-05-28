@@ -1,1 +1,10 @@
-// Player class needs to be defined here!
+function Player(){
+  this.isPlaying = false;
+}
+
+Player.prototype = {
+  play: function(song){
+    this.currentSong = song;
+    this.isPlaying = true;
+  }
+};
