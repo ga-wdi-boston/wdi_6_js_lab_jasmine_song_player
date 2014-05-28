@@ -1,5 +1,4 @@
-// Remove the 'x' from `xdescribe` to activate this suite
-xdescribe("Player", function() {
+describe("Player", function() {
   // `this` is reset to an empty object before each spec, so we can stash things
   // there using beforeEach (exercise: why can't we just do `var player = ...`?)
   beforeEach(function() {
