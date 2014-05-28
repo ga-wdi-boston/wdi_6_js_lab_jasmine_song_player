@@ -41,8 +41,10 @@ xdescribe("Player", function() {
     it("throws an error if not paused", function() {
       this.player.resume();
 
+      // Exercise: Why can't we just call `this.player` inside the function?
+      var player = this.player;
       expect(function() {
-        this.player.resume();
+        player.resume();
       }).toThrowError("song is already playing");
     });
   });
