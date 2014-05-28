@@ -13,6 +13,10 @@ Player.prototype = {
   },
 
   resume: function(){
-    this.isPlaying = true;
+    if(this.isPlaying) {
+      throw new Error("song is already playing");
+    } else {
+      this.isPlaying = true;
+    }
   }
 };
