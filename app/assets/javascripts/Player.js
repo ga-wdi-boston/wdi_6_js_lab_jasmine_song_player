@@ -10,5 +10,9 @@ Player.prototype = {
 
   pause: function(){
     this.isPlaying = false;
+  },
+
+  resume: function(){
+    this.isPlaying = true;
   }
 };
