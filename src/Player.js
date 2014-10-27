@@ -20,6 +20,7 @@ function Player() {
   }
 
   this.makeFavorite = function() {
+    this.currentSong.persistFavoriteStatus(true);
   }
 
 }

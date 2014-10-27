@@ -1,4 +1,7 @@
 // Song prototype needs to be defined here!
 
-function Song() {
+function Song(title) {
+  this.title = title;
+  this.persistFavoriteStatus = function() {
+  }
 }
