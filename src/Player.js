@@ -8,7 +8,11 @@ function Player() {
   }
 
   this.pause = function() {
+    this.isPlaying = false;
+  }
 
+  this.resume = function() {
+    this.isPlaying = true;
   }
 
 }
