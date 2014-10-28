@@ -1,6 +1,6 @@
 // Song prototype needs to be defined here!
-function Song(){
-
+function Song(title){
+  this.title = title
 }
 
 Song.prototype ={
