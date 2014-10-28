@@ -3,9 +3,6 @@ function Song(){
 
 }
 
-Song.prototype = {
-  play: function(song){
-    this.isPlaying = true;
-    this.currentSong = song;
-  }
+Song.prototype ={
+  persistFavoriteStatus: function(){}
 };
